@@ -1,0 +1,8 @@
+# Keep personal listening data and secrets out of commits
+QQ音乐-我喜欢-备份.*
+QQ到AppleMusic-匹配报告*.json
+QQ到AppleMusic-匹配报告*.csv
+*cookie*
+*token*
+.DS_Store
+node_modules/
