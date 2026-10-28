@@ -1,6 +1,6 @@
 # Greasy Fork 发布资料（维护者用）
 
-> 当前状态：**待账号所有者在 Greasy Fork 完成首次发布**。本文件仅用于准备，不代表已发布成功。
+> 当前状态：**发布者已提供 Greasy Fork 脚本地址**：[脚本 #602590](https://greasyfork.org/zh-CN/scripts/602590-qq-我喜欢-apple-music-本地迁移助手)。该页面的公开访问、版本和自动同步配置尚未独立核实。
 
 ## 推荐发布方式：从 GitHub 导入并同步
 
@@ -11,7 +11,7 @@
 4. 如果出现自动同步设置，选择从上述 GitHub 主分支地址 **自动同步**。注意：源码本体须完整保存在 Greasy Fork，不能只发布一个远程加载器。
 5. 核对脚本类型为 **用户脚本**，语言为 **简体中文**，可见性先选 **公开**（若需先试用，可选择未公开）。
 6. 发布前检查：`@version` 为 `1.1.0-beta.2`，`@license` 为 `PolyForm-Noncommercial-1.0.0`，适用站点为 `y.qq.com` 与 `music.apple.com`。
-7. 账号所有者确认并发布后，将实际 Greasy Fork 脚本页地址补充到 README。
+7. 作者报告已完成首次发布，链接已加入 README。仍需在 Greasy Fork 后台核对版本与自动同步状态。
 
 ## 脚本名称
 
@@ -57,4 +57,4 @@ QQ 音乐「我喜欢」转 Apple Music｜免费迁移助手（Beta）
 - [ ] 确认许可证为 PolyForm Noncommercial，不是 MIT。
 - [ ] 确认 Greasy Fork 展示的是完整源码、不是远程加载器。
 - [ ] 检查是否提示代码、权限或发布规则问题；有问题先修复，不要绕过审核。
-- [ ] 确认发布后复制实际页面 URL，并在 GitHub README 更新。
+- [x] 发布者提供了实际页面 URL，GitHub README 已更新（页面可访问性尚待确认）。
