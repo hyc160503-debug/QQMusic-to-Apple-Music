@@ -16,6 +16,9 @@
 // @noframes
 // ==/UserScript==
 
+// License terms: https://polyformproject.org/licenses/noncommercial/1.0.0
+// Required Notice: Copyright 2026 hyc160503-debug (https://github.com/hyc160503-debug)
+
 (() => {
   'use strict';
   const isQQ = /(^|\.)y\.qq\.com$/i.test(location.hostname);
