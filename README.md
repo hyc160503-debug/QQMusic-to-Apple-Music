@@ -11,10 +11,17 @@
 - 生成、恢复匹配报告，支持按相似度批量选择候选
 - 经用户确认后创建 Apple Music **普通歌单**（不自动标记为「喜爱」）
 
+## 安装链接
+
+- **[Greasy Fork 脚本页面（一键安装）](https://greasyfork.org/zh-CN/scripts/602590-qq-我喜欢-apple-music-本地迁移助手)** — 作者提供的已发布脚本地址。
+- [GitHub 源码直链](https://raw.githubusercontent.com/hyc160503-debug/QQMusic-to-Apple-Music/main/QQMusic-to-AppleMusic.user.js) — 备用安装方式。
+
+> Greasy Fork 页面地址由发布者提供；目前尚无法从外部读取该页面确认代码版本或自动同步状态。
+
 ## 使用方法
 
 1. 使用 Chrome 安装 [Tampermonkey](https://www.tampermonkey.net/) 并开启用户脚本权限。
-2. 点击 [安装 QQMusic-to-AppleMusic.user.js](https://raw.githubusercontent.com/hyc160503-debug/QQMusic-to-Apple-Music/main/QQMusic-to-AppleMusic.user.js)，在 Tampermonkey 中确认安装；若只显示代码，可保存为 `.user.js` 后从 Tampermonkey 管理面板导入。**如果曾安装旧版脚本，请先停用旧版，避免重复出现按钮。**
+2. 打开 [Greasy Fork 发布页面](https://greasyfork.org/zh-CN/scripts/602590-qq-我喜欢-apple-music-本地迁移助手)，点击页面上的安装按钮并在 Tampermonkey 中确认。若 Greasy Fork 安装不可用，可通过上方 GitHub 源码直链安装。**如果曾安装旧版脚本，请先停用旧版，避免重复出现按钮。**
 3. 访问 [QQ 音乐网页版](https://y.qq.com/)，登录后通过「♫ QQ → Apple」导出「我喜欢」JSON。
 4. 访问 [Apple Music 网页版](https://music.apple.com/)，登录并导入该 JSON，设置正确的地区代码（如 `cn`、`sg`、`us`）。
 5. 匹配歌曲，保存匹配报告并检查结果；确认后创建歌单。
