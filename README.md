@@ -14,7 +14,7 @@
 ## 使用方法
 
 1. 使用 Chrome 安装 [Tampermonkey](https://www.tampermonkey.net/) 并开启用户脚本权限。
-2. 安装仓库中的 `QQMusic-to-AppleMusic.user.js`。
+2. 点击 [安装 QQMusic-to-AppleMusic.user.js](https://raw.githubusercontent.com/hyc160503-debug/QQMusic-to-Apple-Music/main/QQMusic-to-AppleMusic.user.js)，在 Tampermonkey 中确认安装；若只显示代码，可保存为 `.user.js` 后从 Tampermonkey 管理面板导入。**如果曾安装旧版脚本，请先停用旧版，避免重复出现按钮。**
 3. 访问 [QQ 音乐网页版](https://y.qq.com/)，登录后通过「♫ QQ → Apple」导出「我喜欢」JSON。
 4. 访问 [Apple Music 网页版](https://music.apple.com/)，登录并导入该 JSON，设置正确的地区代码（如 `cn`、`sg`、`us`）。
 5. 匹配歌曲，保存匹配报告并检查结果；确认后创建歌单。
